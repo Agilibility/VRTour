@@ -1,4 +1,4 @@
-﻿<krpano version="1.19" title="Virtual Tour">
+<krpano version="1.19" title="Virtual Tour">
 
 	<include url="skin/vtourskin.xml" />
 
@@ -102,12 +102,14 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-163.127" atv="40.320" linkedscene="scene_bathroom1fixed" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="123.895" atv="33.470" linkedscene="scene_hallwayfixed" />
 
 	</scene>
 
 	<scene name="scene_dining_room_fixed" title="dining room fixed" onstart="" thumburl="panos/dining_room_fixed.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="42.354" vlookat="-2.050" fovtype="MFOV" fov="119.834" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/dining_room_fixed.tiles/preview.jpg" />
 
@@ -118,6 +120,10 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="4.581" atv="23.123" linkedscene="scene_living_room_fixed" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="79.395" atv="26.020" linkedscene="scene_kitchenfixed" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-17.575" atv="7.962" linkedscene="scene_loft_fixed" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-71.271" atv="26.057" linkedscene="scene_hallwayfixed" />
 
 	</scene>
 
@@ -150,6 +156,9 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="116.514" atv="18.895" linkedscene="scene_bedroom1fixed" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-63.203" atv="28.776" linkedscene="scene_master_bedroom_fixed" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="129.561" atv="29.933" linkedscene="scene_dining_room_fixed" />
 
 	</scene>
 
@@ -166,6 +175,7 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-78.536" atv="24.872" linkedscene="scene_dining_room_fixed" />
 
 	</scene>
 
@@ -182,6 +192,8 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-5.526" atv="15.865" linkedscene="scene_loft_fixed" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-129.400" atv="18.198" linkedscene="scene_dining_room_fixed" />
 
 	</scene>
 
@@ -198,6 +210,7 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="1.842" atv="30.553" linkedscene="scene_living_room_fixed" />
 
 	</scene>
 
@@ -230,6 +243,8 @@
 		</image>
 
 		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="12.225" atv="23.840" linkedscene="scene_master_bathroom_fixed" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="56.132" atv="32.251" linkedscene="scene_hallwayfixed" />
 
 	</scene>
 
